@@ -2,7 +2,7 @@
 # Our Business Project - A spring boot / JPA project
 
 ### NOM : PARIEL-ABADIE
-### Prénom : Florian
+### Prénom : Florian 
 ### Groupe de TP : 
 - [x] 1
 
