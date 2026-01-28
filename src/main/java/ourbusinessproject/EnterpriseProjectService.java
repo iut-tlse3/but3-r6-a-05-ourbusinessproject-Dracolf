@@ -35,6 +35,9 @@ public class EnterpriseProjectService {
         project.setEnterprise(enterprise);
         this.entityManager.persist(project);
         this.entityManager.flush();
+        enterprise.addProject(project); //ça marche quand meme psk le project est le responsable de la relation
+                                        // le flush comprend tout seul qu'il doit ajouter le projet à la liste
+                                        // de l'entreprise en BD car project a l'entreprise en clé étrangère
         return project;
     }
 
