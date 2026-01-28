@@ -46,4 +46,8 @@ public class Project {
     public Enterprise getEnterprise() {
         return enterprise;
     }
+
+    public String getTitle() {
+        return title;
+    }
 }
