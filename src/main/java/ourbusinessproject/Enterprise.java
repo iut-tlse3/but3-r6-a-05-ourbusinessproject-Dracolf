@@ -67,6 +67,10 @@ public class Enterprise {
         return id;
     }
 
+    public String getName() {
+        return name;
+    }
+
     /**
      * Returns the enterprise's projects
      * @return projects
